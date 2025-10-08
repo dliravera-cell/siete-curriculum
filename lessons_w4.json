@@ -1,0 +1,104 @@
+{
+  "week": 4,
+  "title": "Redes Neuronales Básicas",
+  "objectives": [
+    "Entender activaciones y perceptrón",
+    "Entrenar redes con backprop y optimizadores",
+    "Regularizar y evaluar correctamente"
+  ],
+  "reading_minutes": 35,
+  "content_html": "<h2>Perceptrón y activaciones</h2>\n<p>El perceptrón combina entradas con pesos y aplica una función de activación (ReLU, sigmoid, tanh). Pilas de neuronas forman redes capaces de aproximar funciones complejas.</p>\n<h2>Entrenamiento y backprop</h2>\n<p>El gradiente de la pérdida se propaga capa a capa para actualizar pesos (descenso por gradiente; Adam). Normaliza datos, inicializa bien y usa batch adecuado.</p>\n<h2>Regularización y buenas prácticas</h2>\n<p>Dropout, L2 y early stopping combaten sobreajuste. Monitoriza curva de entrenamiento y usa validación cruzada cuando sea posible.</p>",
+  "quiz": [
+    {
+      "q": "Una función de activación común es…",
+      "options": [
+        "Seno",
+        "ReLU",
+        "Raíz cuadrada",
+        "Media"
+      ],
+      "answer": 1,
+      "explanation": "ReLU es estándar en redes modernas."
+    },
+    {
+      "q": "Backprop…",
+      "options": [
+        "No usa gradientes",
+        "Propaga gradientes para actualizar pesos",
+        "Solo sirve en SVM",
+        "Reemplaza datos"
+      ],
+      "answer": 1,
+      "explanation": "Calcula gradientes para ajustar parámetros."
+    },
+    {
+      "q": "Una técnica de regularización es…",
+      "options": [
+        "Dropout",
+        "Aumentar épocas sin control",
+        "Quitar validación",
+        "Mezclar train y test"
+      ],
+      "answer": 0,
+      "explanation": "Dropout reduce sobreajuste."
+    },
+    {
+      "q": "Adam es…",
+      "options": [
+        "Una métrica",
+        "Un optimizador",
+        "Un dataset",
+        "Una activación"
+      ],
+      "answer": 1,
+      "explanation": "Adam es un optimizador adaptativo."
+    },
+    {
+      "q": "Para evitar sobreajuste debes…",
+      "options": [
+        "Ignorar validación",
+        "Usar early stopping",
+        "Aumentar capas siempre",
+        "Eliminar regularización"
+      ],
+      "answer": 1,
+      "explanation": "Early stopping corta antes de memorizar."
+    }
+  ],
+  "project": {
+    "title": "Clasificador de dígitos con red neuronal simple",
+    "steps": [
+      "Usa MNIST con una red MLP (2–3 capas).",
+      "Compara ReLU vs. tanh y distintos tamaños de batch.",
+      "Reporta accuracy y curva de pérdida."
+    ],
+    "rubric": [
+      "Implementación correcta y reproducible",
+      "Comparativas claras",
+      "Conclusiones y limitaciones"
+    ]
+  },
+  "resources": [
+    {
+      "type": "course",
+      "title": "Neural Networks and Deep Learning",
+      "url": "https://www.coursera.org/specializations/deep-learning",
+      "source": "DeepLearning.AI",
+      "duration": ""
+    },
+    {
+      "type": "doc",
+      "title": "Keras Quickstart",
+      "url": "https://keras.io/getting_started/",
+      "source": "Keras",
+      "duration": ""
+    },
+    {
+      "type": "video",
+      "title": "Backpropagation Explained",
+      "url": "https://www.youtube.com/watch?v=Ilg3gGewQ5U",
+      "source": "3Blue1Brown",
+      "duration": "20m"
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "updated_at": "2025-10-08T04:49:33.035194Z",
+  "weeks": [
+    {
+      "id": 1,
+      "order": 1,
+      "title": "Introducción a la Inteligencia Artificial",
+      "summary": "Historia, conceptos clave, usos y ética.",
+      "public": true
+    },
+    {
+      "id": 2,
+      "order": 2,
+      "title": "Aprendizaje Supervisado",
+      "summary": "Regresión, clasificación, métricas y sobreajuste.",
+      "public": false
+    },
+    {
+      "id": 3,
+      "order": 3,
+      "title": "Aprendizaje No Supervisado",
+      "summary": "Clustering, reducción de dimensión, anomalías.",
+      "public": false
+    },
+    {
+      "id": 4,
+      "order": 4,
+      "title": "Redes Neuronales Básicas",
+      "summary": "Perceptrón, activaciones, backprop y entrenamiento.",
+      "public": false
+    },
+    {
+      "id": 5,
+      "order": 5,
+      "title": "LLMs y Técnicas de Prompting",
+      "summary": "Fundamentos de LLMs, tokens, prompts efectivos y seguridad.",
+      "public": false
+    },
+    {
+      "id": 6,
+      "order": 6,
+      "title": "Agentes y Flujos de Trabajo con IA",
+      "summary": "Herramientas, memoria, orquestación y evaluación.",
+      "public": false
+    },
+    {
+      "id": 7,
+      "order": 7,
+      "title": "Proyecto con Datos del Mundo Real",
+      "summary": "EDA, modelado, validación y comunicación.",
+      "public": false
+    },
+    {
+      "id": 8,
+      "order": 8,
+      "title": "Emprendimiento e Impacto Social",
+      "summary": "Modelos de negocio, ética aplicada y demo final.",
+      "public": false
+    }
+  ]
+}

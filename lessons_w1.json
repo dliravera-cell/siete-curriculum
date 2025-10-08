@@ -1,0 +1,113 @@
+{
+  "week": 1,
+  "title": "Introducción a la IA",
+  "objectives": [
+    "Diferenciar IA vs. software tradicional",
+    "Reconocer aplicaciones reales",
+    "Identificar riesgos éticos"
+  ],
+  "reading_minutes": 25,
+  "content_html": "<h2>¿Qué es la IA?</h2>\n<p>La Inteligencia Artificial busca que sistemas computacionales realicen tareas que típicamente requieren inteligencia humana: percibir, razonar, aprender y comunicarse. Desde Dartmouth (1956) hasta hoy, la IA evolucionó de reglas simbólicas a aprendizaje automático y modelos profundos.</p>\n<h2>Aplicaciones cotidianas</h2>\n<p>Recomendaciones, traducción automática, asistentes de voz, detección de fraude y diagnóstico médico asistido son ejemplos reales. Diferenciamos IA débil (enfocada a una tarea) de la IA fuerte (general, aún hipotética).</p>\n<h2>Ética y riesgos</h2>\n<p>Toda solución debe considerar privacidad, sesgo, seguridad, impacto laboral y transparencia. La calidad de los datos y el proceso de evaluación determinan la confiabilidad del sistema.</p>",
+  "quiz": [
+    {
+      "q": "¿En qué año se popularizó el término 'IA' en Dartmouth?",
+      "options": [
+        "1945",
+        "1956",
+        "1972",
+        "1999"
+      ],
+      "answer": 1,
+      "explanation": "La conferencia de Dartmouth fue en 1956."
+    },
+    {
+      "q": "Un ejemplo de IA débil es…",
+      "options": [
+        "Un sistema que razona como humano en cualquier tema",
+        "Recomendaciones de películas",
+        "Un robot con conciencia",
+        "Un sistema operativo"
+      ],
+      "answer": 1,
+      "explanation": "Las recomendaciones son IA específica para una tarea."
+    },
+    {
+      "q": "Un riesgo ético clave es…",
+      "options": [
+        "Tamaño del disco duro",
+        "Sesgo en datos",
+        "Color de la interfaz",
+        "Velocidad del Wi‑Fi"
+      ],
+      "answer": 1,
+      "explanation": "Los sesgos en datos pueden producir decisiones injustas."
+    },
+    {
+      "q": "La IA fuerte…",
+      "options": [
+        "Es la base de todos los sistemas actuales",
+        "Aún es hipotética",
+        "No usa datos",
+        "No requiere evaluación"
+      ],
+      "answer": 1,
+      "explanation": "La IA general todavía no existe en producción."
+    },
+    {
+      "q": "Un ejemplo de aplicación de IA en salud es…",
+      "options": [
+        "Compilar un programa",
+        "Clasificar imágenes médicas",
+        "Enviar correos",
+        "Editar videos"
+      ],
+      "answer": 1,
+      "explanation": "La IA se usa para análisis de imágenes y apoyo diagnóstico."
+    }
+  ],
+  "project": {
+    "title": "Mapa de Aplicaciones de IA en mi comunidad",
+    "steps": [
+      "Identifica 5 usos reales de IA en tu entorno (educación, salud, movilidad, comercios, servicios).",
+      "Describe el beneficio y un posible riesgo por cada caso.",
+      "Presenta un mapa/diagrama (Canva/Figma/Slides) con iconos y breves descripciones.",
+      "Comparte tu archivo (PDF/PNG) y un párrafo de reflexión final."
+    ],
+    "rubric": [
+      "Cobertura (5 casos bien descritos)",
+      "Claridad visual y escritura",
+      "Análisis de beneficios vs. riesgos",
+      "Reflexión personal"
+    ]
+  },
+  "resources": [
+    {
+      "type": "article",
+      "title": "What is Artificial Intelligence?",
+      "url": "https://plato.stanford.edu/entries/artificial-intelligence/",
+      "source": "Stanford Encyclopedia of Philosophy",
+      "duration": ""
+    },
+    {
+      "type": "course",
+      "title": "MIT 6.034 Artificial Intelligence",
+      "url": "https://ocw.mit.edu/courses/6-034-artificial-intelligence-fall-2020/",
+      "source": "MIT OpenCourseWare",
+      "duration": ""
+    },
+    {
+      "type": "video",
+      "title": "How Does Machine Learning Work?",
+      "url": "https://www.youtube.com/watch?v=ukzFI9rgwfU",
+      "source": "Khan Academy",
+      "duration": "8m"
+    },
+    {
+      "type": "video",
+      "title": "The Ethics of AI",
+      "url": "https://www.youtube.com/watch?v=FZ0cG47msEk",
+      "source": "DeepLearning.AI",
+      "duration": "10m"
+    }
+  ]
+}

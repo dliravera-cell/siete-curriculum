@@ -1,0 +1,105 @@
+{
+  "week": 3,
+  "title": "Aprendizaje No Supervisado",
+  "objectives": [
+    "Aplicar clustering a datos sin etiquetas",
+    "Reducir dimensión para visualizar",
+    "Detectar anomalías y ajustar umbrales"
+  ],
+  "reading_minutes": 30,
+  "content_html": "<h2>Clustering</h2>\n<p>Agrupa datos sin etiquetas para descubrir estructura. k-means busca centroides; elige k con codo o silhouette. DBSCAN detecta clusters de forma arbitraria y ruido.</p>\n<h2>Reducción de dimensión</h2>\n<p>PCA proyecta a componentes principales maximizando varianza; útil para visualización y preprocesamiento. t-SNE/UMAP exploran estructuras complejas para visualización.</p>\n<h2>Detección de anomalías</h2>\n<p>Aísla observaciones atípicas con Isolation Forest o One-Class SVM; útil en fraude o fallas. Ajusta el umbral según el costo de falsos positivos/negativos.</p>",
+  "quiz": [
+    {
+      "q": "k-means requiere…",
+      "options": [
+        "Elegir k",
+        "Etiquetas",
+        "Red neuronal",
+        "Series de tiempo"
+      ],
+      "answer": 0,
+      "explanation": "Debes definir el número de clusters."
+    },
+    {
+      "q": "PCA se usa para…",
+      "options": [
+        "Aumentar dimensiones",
+        "Reducir dimensiones",
+        "Etiquetar datos",
+        "Balnear clases"
+      ],
+      "answer": 1,
+      "explanation": "Reduce dimensiones maximizando varianza."
+    },
+    {
+      "q": "DBSCAN destaca por…",
+      "options": [
+        "Clústeres esféricos",
+        "Requiere k",
+        "Detectar ruido y formas arbitrarias",
+        "Solo supervisado"
+      ],
+      "answer": 2,
+      "explanation": "No requiere k y detecta ruido."
+    },
+    {
+      "q": "Una técnica de anomalías es…",
+      "options": [
+        "Isolation Forest",
+        "Regresión lineal",
+        "t-SNE",
+        "KNN-imputer"
+      ],
+      "answer": 0,
+      "explanation": "Isolation Forest aísla outliers."
+    },
+    {
+      "q": "t-SNE es útil para…",
+      "options": [
+        "Predicción numérica",
+        "Visualización de alta dimensión",
+        "Compresión sin pérdida",
+        "Balanceo de clases"
+      ],
+      "answer": 1,
+      "explanation": "Proyecta datos para visualizar estructura."
+    }
+  ],
+  "project": {
+    "title": "Segmentación de estudiantes por hábitos de estudio",
+    "steps": [
+      "Recoge datos anónimos (tiempo de estudio, horas de sueño, uso de foros).",
+      "Aplica k-means y visualiza con PCA o UMAP.",
+      "Describe perfiles y recomendaciones para cada segmento."
+    ],
+    "rubric": [
+      "Limpieza y normalización",
+      "Elección de k y justificación",
+      "Interpretación de clústeres",
+      "Visualización clara"
+    ]
+  },
+  "resources": [
+    {
+      "type": "paper",
+      "title": "A Density-Based Algorithm for Discovering Clusters (DBSCAN)",
+      "url": "https://www.aaai.org/Papers/KDD/1996/KDD96-037.pdf",
+      "source": "KDD",
+      "duration": ""
+    },
+    {
+      "type": "doc",
+      "title": "PCA Explained",
+      "url": "https://scikit-learn.org/stable/modules/decomposition.html#pca",
+      "source": "scikit-learn",
+      "duration": ""
+    },
+    {
+      "type": "video",
+      "title": "Clustering Basics",
+      "url": "https://www.youtube.com/watch?v=4b5d3muPQmA",
+      "source": "StatQuest",
+      "duration": "16m"
+    }
+  ]
+}

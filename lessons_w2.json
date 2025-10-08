@@ -1,0 +1,106 @@
+{
+  "week": 2,
+  "title": "Aprendizaje Supervisado",
+  "objectives": [
+    "Comprender el flujo supervisado (X,y)",
+    "Elegir modelos base",
+    "Medir con métricas adecuadas y evitar sobreajuste"
+  ],
+  "reading_minutes": 30,
+  "content_html": "<h2>Concepto y flujo de trabajo</h2>\n<p>El aprendizaje supervisado usa datos etiquetados (X,y). Flujo: dividir datos en entrenamiento/validación/prueba; entrenar el modelo; evaluar; iterar. Evita 'mirar' el conjunto de prueba hasta el final.</p>\n<h2>Modelos comunes</h2>\n<p>Regresión lineal para predecir valores continuos; regresión logística para clasificación; árboles de decisión/Random Forest; SVM y k-NN. Empieza simple y compara con una baseline.</p>\n<h2>Métricas y sobreajuste</h2>\n<p>Para regresión: MAE/MSE; para clasificación: accuracy, precisión, recall y F1. El sobreajuste ocurre cuando el modelo memoriza ruido del entrenamiento; usa regularización, validación cruzada y early stopping.</p>",
+  "quiz": [
+    {
+      "q": "¿Qué caracteriza al aprendizaje supervisado?",
+      "options": [
+        "No usa etiquetas",
+        "Usa etiquetas (y) para aprender",
+        "No requiere datos",
+        "Solo imágenes"
+      ],
+      "answer": 1,
+      "explanation": "Se entrena con pares (X,y)."
+    },
+    {
+      "q": "Una métrica adecuada para clasificación es…",
+      "options": [
+        "MSE",
+        "MAE",
+        "Accuracy",
+        "RMSE"
+      ],
+      "answer": 2,
+      "explanation": "Accuracy es común; también F1, precisión y recall."
+    },
+    {
+      "q": "El sobreajuste se mitiga con…",
+      "options": [
+        "Más épocas siempre",
+        "Regularización y validación",
+        "Eliminar validación",
+        "Usar solo una métrica"
+      ],
+      "answer": 1,
+      "explanation": "Regularización y validación previenen memorizar ruido."
+    },
+    {
+      "q": "Un ejemplo de modelo de regresión es…",
+      "options": [
+        "Regresión lineal",
+        "Regresión logística",
+        "Árbol de decisión",
+        "k-means"
+      ],
+      "answer": 0,
+      "explanation": "La regresión lineal predice valores continuos."
+    },
+    {
+      "q": "La mejor práctica con el conjunto de prueba es…",
+      "options": [
+        "Usarlo para ajustar hiperparámetros",
+        "No mirarlo hasta el final",
+        "Mezclarlo con train",
+        "Eliminarlo"
+      ],
+      "answer": 1,
+      "explanation": "Debe reservarse para evaluación final."
+    }
+  ],
+  "project": {
+    "title": "Clasificador de mensajes: spam o no spam",
+    "steps": [
+      "Descarga un dataset simple de SMS spam (público).",
+      "Divide en train/valid/test. Prueba regresión logística o árbol.",
+      "Reporta accuracy, precision, recall y F1.",
+      "Escribe 5 reglas éticas para evitar daños al usuario."
+    ],
+    "rubric": [
+      "Procesamiento y split correcto",
+      "Modelo y métricas",
+      "Claridad del reporte",
+      "Consideraciones éticas"
+    ]
+  },
+  "resources": [
+    {
+      "type": "course",
+      "title": "Intro to ML",
+      "url": "https://www.coursera.org/learn/machine-learning",
+      "source": "Stanford (Andrew Ng)",
+      "duration": ""
+    },
+    {
+      "type": "doc",
+      "title": "Scikit-learn User Guide",
+      "url": "https://scikit-learn.org/stable/user_guide.html",
+      "source": "scikit-learn",
+      "duration": ""
+    },
+    {
+      "type": "video",
+      "title": "Precision, Recall, F1",
+      "url": "https://www.youtube.com/watch?v=gDZn-Ij8e9M",
+      "source": "StatQuest",
+      "duration": "13m"
+    }
+  ]
+}

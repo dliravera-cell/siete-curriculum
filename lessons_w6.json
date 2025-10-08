@@ -1,0 +1,104 @@
+{
+  "week": 6,
+  "title": "Agentes y Flujos de Trabajo con IA",
+  "objectives": [
+    "Entender el rol de herramientas y memoria",
+    "Orquestar y evaluar flujos de agente",
+    "Garantizar seguridad y trazabilidad"
+  ],
+  "reading_minutes": 35,
+  "content_html": "<h2>Qué es un agente</h2>\n<p>Un agente coordina tareas con herramientas externas (búsqueda, calculadora, bases de datos) y memoria. Define políticas: cuándo usar cada herramienta y cómo verificar resultados.</p>\n<h2>Orquestación y evaluación</h2>\n<p>Diseña flujos: plan → ejecutar → verificar → corregir. Registra trazas. Evalúa con conjuntos de tareas y métricas de éxito, costo y tiempo.</p>\n<h2>Buenas prácticas</h2>\n<p>Limita permisos, sandboxea acciones y añade límites de tokens/costo. Usa revisores humanos para decisiones de alto riesgo.</p>",
+  "quiz": [
+    {
+      "q": "Un agente…",
+      "options": [
+        "Solo genera texto",
+        "Puede usar herramientas externas",
+        "Es una red física",
+        "No requiere evaluación"
+      ],
+      "answer": 1,
+      "explanation": "Los agentes orquestan herramientas."
+    },
+    {
+      "q": "Una buena práctica es…",
+      "options": [
+        "Sin límites de costo",
+        "Trazabilidad y verificación",
+        "Eliminar logs",
+        "Permisos amplios por defecto"
+      ],
+      "answer": 1,
+      "explanation": "La observabilidad es clave."
+    },
+    {
+      "q": "Para evaluar agentes…",
+      "options": [
+        "Solo medir tokens",
+        "Usar tareas y métricas de éxito",
+        "Ignorar errores",
+        "Probar una vez"
+      ],
+      "answer": 1,
+      "explanation": "Evalúa con benchmarks y casos reales."
+    },
+    {
+      "q": "La memoria del agente sirve para…",
+      "options": [
+        "Olvidar contexto",
+        "Persistir información relevante",
+        "Aumentar ruido",
+        "Eliminar herramientas"
+      ],
+      "answer": 1,
+      "explanation": "Guarda estado útil entre pasos."
+    },
+    {
+      "q": "Sandboxear acciones significa…",
+      "options": [
+        "Prohibir todo",
+        "Ejecutar en entorno controlado",
+        "Usar Wi‑Fi",
+        "Compartir datos sensibles"
+      ],
+      "answer": 1,
+      "explanation": "Minimiza riesgos ejecutando en entornos aislados."
+    }
+  ],
+  "project": {
+    "title": "Agente de estudio asistido",
+    "steps": [
+      "Diseña un flujo: objetivo del alumno → plan de estudio → recursos → quiz de repaso.",
+      "Simula llamadas a herramientas (búsqueda/nota) y registra trazas.",
+      "Mide éxito: tiempo, calidad y aciertos en quiz."
+    ],
+    "rubric": [
+      "Claridad del flujo",
+      "Uso justificado de herramientas",
+      "Métricas y análisis"
+    ]
+  },
+  "resources": [
+    {
+      "type": "guide",
+      "title": "OpenAI Function Calling (conceptos)",
+      "url": "https://platform.openai.com/docs/guides/function-calling",
+      "source": "OpenAI Docs",
+      "duration": ""
+    },
+    {
+      "type": "guide",
+      "title": "LangChain Concepts",
+      "url": "https://python.langchain.com/docs/",
+      "source": "LangChain",
+      "duration": ""
+    },
+    {
+      "type": "video",
+      "title": "Building AI Agents",
+      "url": "https://www.youtube.com/watch?v=7Fh0lA1j4v8",
+      "source": "DeepLearning.AI",
+      "duration": "50m"
+    }
+  ]
+}

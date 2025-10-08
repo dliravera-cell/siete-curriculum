@@ -1,0 +1,104 @@
+{
+  "week": 5,
+  "title": "LLMs y Técnicas de Prompting",
+  "objectives": [
+    "Comprender cómo funcionan los LLMs",
+    "Aplicar estrategias de prompting efectivas",
+    "Reducir alucinaciones y cuidar la seguridad"
+  ],
+  "reading_minutes": 35,
+  "content_html": "<h2>Fundamentos de LLMs</h2>\n<p>Los LLMs predicen el siguiente token basados en grandes corpus. Conceptos: tokenización, embeddings, atención y context window. No garantizan veracidad; valida y cita fuentes.</p>\n<h2>Estrategias de prompting</h2>\n<p>Usa instrucciones claras, rol y objetivo, estructura paso a paso, ejemplos (few-shot), restricciones y criterios de calidad. Evalúa con casos de prueba y revisa sesgos.</p>\n<h2>Seguridad y límites</h2>\n<p>Evita compartir datos sensibles. Aplica filtros y reglas. Diseña para la corrección: pedir que verifique, cite y muestre fuentes confiables.</p>",
+  "quiz": [
+    {
+      "q": "Los LLMs generan…",
+      "options": [
+        "Imágenes",
+        "Siguiente token de texto",
+        "Bases de datos",
+        "Redes neuronales físicas"
+      ],
+      "answer": 1,
+      "explanation": "Su tarea base es predecir el siguiente token."
+    },
+    {
+      "q": "Una técnica eficaz de prompting es…",
+      "options": [
+        "Ser vago",
+        "Pedir pasos y ejemplos",
+        "Omitir restricciones",
+        "No evaluar"
+      ],
+      "answer": 1,
+      "explanation": "Estructura con pasos, ejemplos y criterios."
+    },
+    {
+      "q": "Para reducir alucinaciones…",
+      "options": [
+        "Pedir fuentes y verificar",
+        "Aumentar temperatura al máximo",
+        "No dar contexto",
+        "Usar prompts cortos siempre"
+      ],
+      "answer": 0,
+      "explanation": "Pedir fuentes y validar reduce errores."
+    },
+    {
+      "q": "El 'context window' es…",
+      "options": [
+        "El tamaño del dataset",
+        "El texto que el modelo puede considerar a la vez",
+        "La GPU usada",
+        "El número de capas"
+      ],
+      "answer": 1,
+      "explanation": "Limita cuánta información entra a la vez."
+    },
+    {
+      "q": "Las 'embeddings'…",
+      "options": [
+        "Son videos",
+        "Representan texto como vectores",
+        "Solo sirven para imágenes",
+        "Son activaciones ReLU"
+      ],
+      "answer": 1,
+      "explanation": "Son representaciones vectoriales de texto."
+    }
+  ],
+  "project": {
+    "title": "Guía de prompts para estudiar mejor",
+    "steps": [
+      "Diseña 5 prompts para: resumir, explicar, generar preguntas, verificar fuentes y planificar estudio.",
+      "Evalúa cada prompt con 2 ejemplos reales y criterios de calidad.",
+      "Incluye advertencias de seguridad/ética."
+    ],
+    "rubric": [
+      "Claridad y variedad de prompts",
+      "Evaluación objetiva",
+      "Seguridad y referencias"
+    ]
+  },
+  "resources": [
+    {
+      "type": "guide",
+      "title": "Prompting Guide",
+      "url": "https://www.deeplearning.ai/short-courses/",
+      "source": "DeepLearning.AI",
+      "duration": ""
+    },
+    {
+      "type": "paper",
+      "title": "Attention Is All You Need",
+      "url": "https://arxiv.org/abs/1706.03762",
+      "source": "arXiv",
+      "duration": ""
+    },
+    {
+      "type": "video",
+      "title": "Intro to Large Language Models",
+      "url": "https://www.youtube.com/watch?v=zjkBMFhNj_g",
+      "source": "Andrej Karpathy",
+      "duration": "1h"
+    }
+  ]
+}

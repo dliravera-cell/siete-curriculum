@@ -1,0 +1,105 @@
+{
+  "week": 7,
+  "title": "Proyecto con Datos del Mundo Real",
+  "objectives": [
+    "Definir problema y métrica",
+    "Ejecutar EDA y baseline",
+    "Comunicar resultados y límites"
+  ],
+  "reading_minutes": 40,
+  "content_html": "<h2>Planteamiento del problema</h2>\n<p>Define una pregunta útil y medible (ej.: predecir riesgo académico o recomendar recursos). Especifica entradas, salidas y audiencia.</p>\n<h2>EDA y modelado</h2>\n<p>Explora datos (calidad, faltantes, sesgo). Elige un modelo base simple y compara con alternativas. Documenta decisiones y supuestos.</p>\n<h2>Validación y comunicación</h2>\n<p>Separa datos de prueba; reporta métricas y límites. Explica el valor para usuarios y riesgos/compliance.</p>",
+  "quiz": [
+    {
+      "q": "Un buen objetivo es…",
+      "options": [
+        "Vago",
+        "Medible y útil",
+        "Demasiado amplio",
+        "Sin usuarios"
+      ],
+      "answer": 1,
+      "explanation": "Debe ser específico y medible."
+    },
+    {
+      "q": "La EDA busca…",
+      "options": [
+        "Entrenar directamente",
+        "Entender datos y problemas",
+        "Ignorar sesgos",
+        "Publicar sin validar"
+      ],
+      "answer": 1,
+      "explanation": "Explora calidad y estructura de datos."
+    },
+    {
+      "q": "La métrica debe…",
+      "options": [
+        "Elegirse al final",
+        "Alinear con el objetivo",
+        "Ser aleatoria",
+        "No importan"
+      ],
+      "answer": 1,
+      "explanation": "La métrica guía decisiones."
+    },
+    {
+      "q": "Comunicar límites del modelo…",
+      "options": [
+        "No es necesario",
+        "Es clave para confianza",
+        "Solo si falla",
+        "Solo al profesor"
+      ],
+      "answer": 1,
+      "explanation": "La transparencia es parte de la ética."
+    },
+    {
+      "q": "Mantener un set de prueba…",
+      "options": [
+        "No importa",
+        "Evita optimismo sesgado",
+        "Duplica train",
+        "Reduce datos"
+      ],
+      "answer": 1,
+      "explanation": "Permite evaluación honesta."
+    }
+  ],
+  "project": {
+    "title": "Proyecto aplicado (borrador final)",
+    "steps": [
+      "Define problema, métrica y audiencia.",
+      "Realiza EDA básica y elige un modelo baseline.",
+      "Reporta resultados y riesgos; prepara 3 diapositivas de hallazgos."
+    ],
+    "rubric": [
+      "Definición clara",
+      "Metodología correcta",
+      "Resultados y narrativa",
+      "Ética y riesgos"
+    ]
+  },
+  "resources": [
+    {
+      "type": "guide",
+      "title": "CRISP-DM",
+      "url": "https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining",
+      "source": "Wikipedia (overview)",
+      "duration": ""
+    },
+    {
+      "type": "guide",
+      "title": "Model Evaluation",
+      "url": "https://scikit-learn.org/stable/modules/model_evaluation.html",
+      "source": "scikit-learn",
+      "duration": ""
+    },
+    {
+      "type": "video",
+      "title": "Storytelling with Data (talk)",
+      "url": "https://www.youtube.com/watch?v=8EMW7io4rSI",
+      "source": "Google Talks",
+      "duration": "40m"
+    }
+  ]
+}

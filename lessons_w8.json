@@ -1,0 +1,104 @@
+{
+  "week": 8,
+  "title": "Emprendimiento e Impacto Social",
+  "objectives": [
+    "Modelar el negocio y costos de IA",
+    "Construir MVP con métricas",
+    "Presentar un pitch responsable"
+  ],
+  "reading_minutes": 35,
+  "content_html": "<h2>Modelos de negocio con IA</h2>\n<p>Identifica cliente, propuesta de valor y canal. Evalúa costos (infraestructura, inferencia) y riesgos (privacidad, seguridad, sesgo).</p>\n<h2>MVP y evidencia</h2>\n<p>Construye un prototipo funcional que pruebe la hipótesis clave; mide adopción, retención y satisfacción. Evita 'demo mágico' sin replicabilidad.</p>\n<h2>Ética aplicada y pitch final</h2>\n<p>Incluye consideraciones de impacto social, accesibilidad y cumplimiento. Prepara un pitch claro con métricas y plan de próximos pasos.</p>",
+  "quiz": [
+    {
+      "q": "Un MVP debe…",
+      "options": [
+        "Ser perfecto",
+        "Validar hipótesis clave",
+        "Ignorar usuarios",
+        "Evitar métricas"
+      ],
+      "answer": 1,
+      "explanation": "Busca validar con mínima inversión."
+    },
+    {
+      "q": "Un costo relevante en IA es…",
+      "options": [
+        "Pintura de oficina",
+        "Inferencia y almacenamiento",
+        "Café",
+        "Decoración"
+      ],
+      "answer": 1,
+      "explanation": "El cómputo e infraestructura dominan costos."
+    },
+    {
+      "q": "La accesibilidad…",
+      "options": [
+        "No aplica",
+        "Es un requisito de diseño",
+        "Solo en móviles",
+        "Solo para adultos"
+      ],
+      "answer": 1,
+      "explanation": "Diseñar accesible amplía impacto."
+    },
+    {
+      "q": "Riesgo ético común…",
+      "options": [
+        "Sesgo algorítmico",
+        "Color del logo",
+        "Tipografía",
+        "Tamaño del botón"
+      ],
+      "answer": 0,
+      "explanation": "El sesgo debe medirse y mitigarse."
+    },
+    {
+      "q": "Un pitch claro incluye…",
+      "options": [
+        "Chistes",
+        "Métrica principal y plan",
+        "Solo diseño visual",
+        "Nada técnico"
+      ],
+      "answer": 1,
+      "explanation": "Debe comunicar valor y evidencia."
+    }
+  ],
+  "project": {
+    "title": "Demo y pitch final",
+    "steps": [
+      "Prepara demo navegable (video o app) y 5 diapositivas: problema, solución, evidencia, ética, roadmap.",
+      "Incluye KPIs (adopción, satisfacción) y riesgos."
+    ],
+    "rubric": [
+      "Claridad del problema y solución",
+      "Evidencia/KPIs",
+      "Ética y cumplimiento",
+      "Calidad del pitch"
+    ]
+  },
+  "resources": [
+    {
+      "type": "guide",
+      "title": "AI Product Management",
+      "url": "https://ai.google/education/",
+      "source": "Google AI Education",
+      "duration": ""
+    },
+    {
+      "type": "guide",
+      "title": "Responsible AI",
+      "url": "https://ai.google/responsibility/",
+      "source": "Google",
+      "duration": ""
+    },
+    {
+      "type": "video",
+      "title": "How to Pitch a Startup",
+      "url": "https://www.youtube.com/watch?v=DSxZr5hLYPw",
+      "source": "Y Combinator",
+      "duration": "18m"
+    }
+  ]
+}
